@@ -22,9 +22,9 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 [Mobile Porfolio] <a name="about-project"></a>
+# 📖 Mobile Porfolio <a name="about-project"></a>
 
-**[Mobile Portfolio]** is a place to show my web development projects.
+**Mobile Portfolio** is a place to show my web development projects.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -32,9 +32,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Menu Bar]**
-- **[Headline]**
-- **[Contact Section]**
+- **Menu Bar**
+- **Headline**
+- **Contact Section**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -79,19 +79,19 @@ You can deploy this project using: Netlify, and some other hosting service: <a h
 ## 👥 Authors <a name="authors"></a>
 
 
-👤 **Author1**
+👤 **Aya**
 
-- GitHub: [@githubhandle](https://github.com/ayaderaghul)
-- Twitter: [@twitterhandle](https://twitter.com/ayaderaghul)
+- GitHub: [@ayaderaghul](https://github.com/ayaderaghul)
+- Twitter: [@ayaderaghul](https://twitter.com/ayaderaghul)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/linh-chi-n-371139180/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ Project 1 ] **[project_1]**
-- [ Project 2 ] **[project_2]**
-- [ About me ] **[about_me]**
+- Project 1 
+- Project 2 
+- About me 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -117,11 +117,11 @@ I would like to thank Microverse and my coding partners
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-- **[How to make it mobile friendly?]**
+- **How to make it mobile friendly?**
 
   - Put a viewport tag in the header, use media queries
 
-- **[How to design the site?]**
+- **How to design the site?**
 
   - Draw a mockup before start to code
 
