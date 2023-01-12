@@ -420,3 +420,30 @@ nav > i:hover {
   /* Primary/B500 */
   color: #396df2;
 }
+
+.snapshot2 {
+  border-radius: 16px;
+  flex: 2;
+  width: 100%;
+  background-image: url("Microverse-Student-Project-1/Snapshoot\ Portfolio\ \(1\).png");
+  background-size: cover;
+  background-position: center;
+}
+
+.snapshot3 {
+  border-radius: 16px;
+  flex: 2;
+  width: 100%;
+  background-image: url("Microverse-Student-Project-1/Snapshoot\ Portfolio2.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.snapshot4 {
+  border-radius: 16px;
+  flex: 2;
+  width: 100%;
+  background-image: url("Microverse-Student-Project-1/Snapshoot\ Portfolio3.png");
+  background-size: cover;
+  background-position: center;
+}
