@@ -188,6 +188,7 @@ nav > i:hover {
 
 .media-item:hover {
   color: gray;
+  cursor: pointer;
 }
 
 /* CARD WORK */
@@ -430,6 +431,11 @@ nav > i:hover {
   color: #396df2;
 }
 
+.button:hover {
+  color: gray;
+  cursor: pointer;
+}
+
 .snapshot2 {
   border-radius: 16px;
   flex: 2;
@@ -458,6 +464,7 @@ nav > i:hover {
 }
 
 .about {
+  margin-top: 250px;
   display: flex;
   flex-direction: column;
   padding: 0 22px;
@@ -545,6 +552,11 @@ nav > i:hover {
   color: #396df2;
 }
 
+.about-button:hover {
+  color:gray;
+  cursor: pointer;
+}
+
 .vert-tabs {
   display: flex;
   flex-direction: column;
@@ -559,7 +571,7 @@ nav > i:hover {
 }
 
 .line {
-  height: 1px;
+  height: 1.5px;
   background: #dfe1e6;
   width: 85%;
 }
@@ -600,19 +612,20 @@ nav > i:hover {
 }
 
 .tab-text {
-  margin-left: 20px;
+  margin-left: 5px;
 }
 
 .contact {
   width: 100%;
-  height: 779px;
+  height: 780px;
   background-image: url("Microverse-Student-Project-1/contactme.png");
   background-size: cover;
   background-position: center;
   display: flex;
   flex-direction: column;
-  padding-top: 30px;
-  padding: 50px 24px 24px 30px;
+
+  display: flex;
+  flex-direction: column;
 }
 
 .contact-me{
