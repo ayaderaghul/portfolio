@@ -103,7 +103,7 @@ nav > i {
 .text-container {
   display: flex;
   flex-direction: column;
-  margin: 80px 24px;
+  margin: 80px 12px;
 }
 
 .title {
@@ -598,6 +598,7 @@ nav > i:hover {
 
 .tab-list {
   list-style: none;
+  padding: 10px;
 }
 
 .line {
