@@ -29,18 +29,20 @@
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
+HTML, CSS
 
 ### Key Features <a name="key-features"></a>
 
-- **Menu Bar**
-- **Headline**
-- **Contact Section**
+- **Header**
+- **Work Section**
+- **About me**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://leafy-duckanoo-fc47d4.netlify.app/)
+- Right click > Inspect > Choose Mobile version
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -50,7 +52,7 @@ You can check the repo and see the desgin of the page
 
 ### Prerequisites
 
-You don't need anything to run this project.
+Setup usual dev environment: VSCode, Live Server
 
 ### Setup
 
@@ -89,9 +91,7 @@ You can deploy this project using: Netlify, and some other hosting service: <a h
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Project 1 
-- Project 2 
-- About me 
+- Contact me section
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,7 +119,7 @@ I would like to thank Microverse and my coding partners
 
 - **How to make it mobile friendly?**
 
-  - Put a viewport tag in the header, use media queries
+  - Put a viewport tag in the header
 
 - **How to design the site?**
 
