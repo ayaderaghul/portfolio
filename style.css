@@ -1,6 +1,8 @@
 body {
   font-family: Poppins, sans-serif;
   background: #f7f7f9;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .container {
@@ -101,7 +103,7 @@ nav > i {
 .text-container {
   display: flex;
   flex-direction: column;
-  margin: 80px 30px;
+  margin: 80px 24px;
 }
 
 .title {
@@ -129,13 +131,13 @@ nav > i {
   /* Primary Text */
   width: 100%;
   height: 146px;
-  margin-top: -10px;
+  margin-top: -90px;
 
   /* Body / 2 */
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 17px;
   line-height: 24px;
 
   /* Neutrals/N600 */
@@ -171,11 +173,32 @@ nav > i {
   list-style: none;
   padding-left: 0;
   margin-top: -5px;
+  position: relative;
+}
+
+.about-item {
+  padding: 10px;
+}
+
+.medium {
+  position: absolute;
+  top: -10px;
+  left: 110px;
 }
 
 .media-item {
   padding: 5px;
   color: #505f79;
+}
+
+.media-items {
+  padding-left: 5px;
+  padding-top: 15px;
+}
+
+.media-items:hover {
+  color: lightgray;
+  cursor: pointer;
 }
 
 .subtitle > i {
@@ -211,7 +234,7 @@ nav > i:hover {
 
 .cardwork {
   /* Card Works */
-  margin: auto;
+  margin-right: 25px;
   box-sizing: border-box;
 
   /* Auto layout */
@@ -220,7 +243,7 @@ nav > i:hover {
   align-items: center;
   padding: 16px;
   gap: 12px;
-  width: 100%;
+  width: 83%;
   height: 800px;
 
   /* Neutrals/N0 */
@@ -570,7 +593,6 @@ nav > i:hover {
   flex-direction: column;
   list-style: none;
   margin-top: 50px;
-  margin-left: -20px;
   width: 100%;
 }
 
