@@ -383,8 +383,8 @@ nav > i:hover {
 }
 
 .tags {
-  display: flex;
-  flex-direction: row;
+  /* display: flex;
+  flex-direction: row; */
   margin-bottom: 20px;
   list-style: none;
   padding-left: 0;
@@ -392,6 +392,7 @@ nav > i:hover {
 
 .tag {
   /* Tag */
+  float: left;
   text-align: center;
   margin-right: 20px;
   padding-top: 5px;
@@ -428,9 +429,15 @@ nav > i:hover {
   width: 90px;
 }
 
+.button-container {
+  position: relative;
+}
+
 .button {
   /* Normal Button/Secondary/Enabled */
   box-sizing: border-box;
+  position: absolute;
+  top: 50px;
 
   /* Auto layout */
   display: flex;
@@ -500,6 +507,7 @@ nav > i:hover {
   background-image: url("Microverse-Student-Project-1/Base\ about\ my\ self.png");
   background-size: cover;
   background-position: center;
+  height: 600px;
 }
 
 .about-title {
@@ -553,6 +561,8 @@ nav > i:hover {
 .about-button {
   /* Normal Button/Secondary/Enabled */
   box-sizing: border-box;
+  position: absolute;
+  top: -90px;
 
   /* Auto layout */
   display: flex;
