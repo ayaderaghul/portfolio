@@ -650,6 +650,10 @@ nav > i:hover {
 .tab-text {
   margin-left: 5px;
 }
+.contact-button {
+  width: 150px;
+  height: 50px;
+}
 
 .contact {
   width: 100%;
