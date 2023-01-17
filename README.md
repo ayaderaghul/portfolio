@@ -113,7 +113,7 @@ If you like this project, give it a star.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse and my coding partners
+I would like to thank Microverse and my coding partners: Amanuel and Rishi
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
