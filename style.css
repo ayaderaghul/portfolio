@@ -670,18 +670,16 @@ nav > i:hover {
   padding: 24px;
   color: #fff;
 }
-.contact-me{
-  /* margin:100px 10px 50px 50px; */
+
+.contact-me {
   height: 56px;
-  
+
   /* Header / 2 */
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-
-  /* or 130% */
   text-align: center;
 
   /* Neutrals/N0 */
@@ -704,14 +702,15 @@ nav > i:hover {
   /* Primary/B50 */
   color: #ebebff;
 }
+
 .name {
   margin-top: 100px;
-
 }
-.email{
+
+.email {
   margin-top: 20px;
-
 }
+
 .name, .email {
   /* Mono/White */
   width:90%;
