@@ -667,4 +667,8 @@ nav > i:hover {
 
 .contact-container {
   padding: 24px;
+  color: #fff;
+}
+.contact-me{
+  margin:100px 10px 50px 50px;
 }
