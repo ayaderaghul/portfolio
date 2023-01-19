@@ -383,8 +383,8 @@ nav > i:hover {
 }
 
 .tags {
-  display: flex;
-  flex-direction: row;
+  /* display: flex;
+  flex-direction: row; */
   margin-bottom: 20px;
   list-style: none;
   padding-left: 0;
@@ -392,6 +392,7 @@ nav > i:hover {
 
 .tag {
   /* Tag */
+  float: left;
   text-align: center;
   margin-right: 20px;
   padding-top: 5px;
@@ -428,9 +429,15 @@ nav > i:hover {
   width: 90px;
 }
 
+.button-container {
+  position: relative;
+}
+
 .button {
   /* Normal Button/Secondary/Enabled */
   box-sizing: border-box;
+  position: absolute;
+  top: 50px;
 
   /* Auto layout */
   display: flex;
@@ -500,6 +507,7 @@ nav > i:hover {
   background-image: url("Microverse-Student-Project-1/Base\ about\ my\ self.png");
   background-size: cover;
   background-position: center;
+  height: 600px;
 }
 
 .about-title {
@@ -553,6 +561,8 @@ nav > i:hover {
 .about-button {
   /* Normal Button/Secondary/Enabled */
   box-sizing: border-box;
+  position: absolute;
+  top: -90px;
 
   /* Auto layout */
   display: flex;
@@ -651,14 +661,13 @@ nav > i:hover {
   flex-direction: column;
 }
 
-.contact-me {
-  /* Primary Text */
+.contact-container {
+  padding: 24px;
+  color: #fff;
+}
 
-  position: absolute;
-  width: 801px;
+.contact-me {
   height: 56px;
-  left: -213px;
-  top: 4734px;
 
   /* Header / 2 */
   font-family: Poppins, sans-serif;
@@ -666,12 +675,82 @@ nav > i:hover {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-
-  /* or 130% */
-  display: flex;
-  align-items: center;
   text-align: center;
 
   /* Neutrals/N0 */
   color: #fff;
+}
+
+.contact-desc {
+  /* Primary Text */
+  height: 102px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  margin-top: -30px;
+
+  /* or 140% */
+  text-align: center;
+
+  /* Primary/B50 */
+  color: #ebebff;
+}
+
+.name {
+  margin-top: 100px;
+}
+
+.email {
+  margin-top: 20px;
+}
+
+.name,
+.email {
+  /* Mono/White */
+  width: 90%;
+  height: 48px;
+  background: #fff;
+
+  /* Base/100 */
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  padding: 8px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+
+  /* or 118% */
+  display: flex;
+  align-items: center;
+
+  /* Neutral/N800 */
+  color: #172b4d;
+}
+
+.message {
+  padding: 8px;
+  margin-top: 20px;
+  width: 90%;
+  height: 170px;
+  border-radius: 8px;
+
+  /* Input /Normal */
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+
+  /* Neutrals/N60 */
+  color: #b3bac5;
+}
+
+.contact-button {
+  background-color: white;
+  width: 50%;
+  margin-top: -30px;
 }
