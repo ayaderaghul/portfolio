@@ -255,7 +255,7 @@ nav > i:hover {
   background: #dfe1e6;
 
   /* Neutrals/N40 */
-  border-radius: 16px; 
+  border-radius: 16px;
 }
 
 .snapshot {
@@ -479,6 +479,7 @@ nav > i:hover {
 .button:hover {
   color: gray;
   cursor: pointer;
+  opacity: 0.7;
 }
 
 .snapshot2 {
@@ -605,6 +606,7 @@ nav > i:hover {
 .about-button:hover {
   color: gray;
   cursor: pointer;
+  opacity: 0.3;
 }
 
 .vert-tabs {
@@ -771,8 +773,8 @@ nav > i:hover {
     width: 100vw;
     height: 587px;
     /* background-image: url("Microverse-Student-Project-1/header-shapes\ mobile.png"); */
-    background-position: center; 
-    background-repeat: no-repeat; 
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
   }
 
