@@ -233,7 +233,7 @@ nav > i:hover {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: 596px 596px 596px 596px;
-  grid-gap: 350px;
+  grid-gap: 50px;
 }
 
 .cardwork {
@@ -569,8 +569,9 @@ nav > i:hover {
 .handle {
   flex: 1;
   width: 100%;
-  padding-top: 10px;
-  margin-left: -25px;
+  margin-top: -70px;
+  margin-left: -5px;
+  margin-bottom: 20px;
 }
 
 .about-button {
@@ -624,6 +625,8 @@ nav > i:hover {
 .tab-list {
   list-style: none;
   padding: 10px;
+  margin-left: -20px;
+  margin-bottom: 50px;
 }
 
 .line {
@@ -674,6 +677,7 @@ nav > i:hover {
   background-position: center;
   display: flex;
   flex-direction: column;
+  margin-top: 80px;
 }
 
 .contact-container {
@@ -960,11 +964,11 @@ nav > i:hover {
   }
 
   .contact-container {
-    padding: 120px 320px;
+    padding: 120px 20%;
   }
 
   form {
-    margin-top: -100px;
+    margin-top: -80px;
   }
 
   .name, .email {
@@ -982,7 +986,6 @@ nav > i:hover {
   }
 
   .contact-button {
-    padding-left: 30px;
-    margin-left: 160px;
+    margin-left: 30%;
   }
 }
