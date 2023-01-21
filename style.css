@@ -2,6 +2,7 @@
 body {
   font-family: Poppins, sans-serif;
   background: #f7f7f9;
+  /* background: #E5E5E5; */
   padding-left: 25px;
   padding-right: 25px;
 }
@@ -806,7 +807,12 @@ nav > i:hover {
   }
 
   .background {
-    padding: 50px 260px;
+    width: 80%;
+    height: 100%;
+    background-image: url("Microverse-Student-Project-1/header-shapes\ mobile.png");
+    background-size: cover;
+    padding: 11%;
+    margin-left: -10px;
   }
 
   .connect {
