@@ -233,7 +233,7 @@ nav > i:hover {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: 596px 596px 596px 596px;
-  grid-gap: 50px;
+  grid-gap: 130px;
 }
 
 .cardwork {
@@ -280,6 +280,7 @@ nav > i:hover {
 .info {
   flex: 2;
   width: 100%;
+  margin-left: 80px;
 }
 
 .cardwork-title {
@@ -485,14 +486,14 @@ nav > i:hover {
 .snapshot2 {
   border-radius: 16px;
   flex: 2;
-  width: 100%;
-
+  width: 80%;
   background-image: url("Microverse-Student-Project-1/Snapshoot\ Portfolio\ \(1\).png"); 
   background-color: #cccccc; 
-  height: 500px; 
+  height: 400px; 
   background-position: center; 
   background-repeat: no-repeat; 
   background-size: cover;
+  margin-right: 120px;
 }
 
 .snapshot3 {
@@ -503,6 +504,7 @@ nav > i:hover {
   background-size: cover;
   background-position: center;
   height: 100%;
+  margin-right: 80px;
 }
 
 .snapshot4 {
@@ -512,6 +514,14 @@ nav > i:hover {
   /* background-image: url("Microverse-Student-Project-1/Snapshoot\ Portfolio3.png"); */
   background-size: cover;
   background-position: center;
+}
+
+.bottom-container {
+  background-image: url("Microverse-Student-Project-1/Base\ about\ my\ self.png");
+  background-size: cover;
+  background-position: center;
+  border-top-right-radius: 150px;
+
 }
 
 .about {
@@ -569,8 +579,8 @@ nav > i:hover {
 .handle {
   flex: 1;
   width: 100%;
-  margin-top: -70px;
-  margin-left: -5px;
+  margin-top: -10px;
+  margin-left: 10px;
   margin-bottom: 20px;
 }
 
@@ -843,13 +853,14 @@ nav > i:hover {
     flex-direction: row;
     width: 95%;
     height: 80%;
-    margin: auto;
+    margin: 0 140px;
     background-color: #fff;
   }
 
   .snapshot {
     width: 100%;
     height: 50%;
+    margin-right: 80px;
   }
 
   .snapshot2 {
@@ -865,8 +876,9 @@ nav > i:hover {
     flex: 1;
     display: flex;
     flex-direction: column;
-    margin-top: -100px;
-    padding: 20px;
+    margin-top: 400px;
+    padding-top: -250px;
+    margin: 0 140px;
   }
 
   .tab-list {
@@ -906,13 +918,11 @@ nav > i:hover {
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin-left: 28px;
   }
   
   .about-connect-icons {
     display: flex;
     flex-direction: row;
-    margin-left: 23px;
     list-style: none;
     padding-left: 0;
     margin-top: 5px;
