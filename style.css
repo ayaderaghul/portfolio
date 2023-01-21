@@ -2,7 +2,6 @@
 body {
   font-family: Poppins, sans-serif;
   background: #f7f7f9;
-  /* background: #E5E5E5; */
   padding-left: 25px;
   padding-right: 25px;
 }
@@ -447,11 +446,9 @@ nav > i:hover {
   box-sizing: border-box;
   position: absolute;
   top: 50px;
+  margin-left: -160px;
 
   /* Auto layout */
-  display: flex;
-  flex-direction: row;
-  align-items: center;
   padding: 12px;
   gap: 10px;
 
@@ -767,6 +764,10 @@ nav > i:hover {
 /* ----DESKTOP VERSION---- */
 
 @media only screen and (min-width: 768px) {
+  .body {
+    background-color: #F4F5F7;
+  }
+
   .logo {
     margin-left: 155px;
   }
@@ -812,22 +813,25 @@ nav > i:hover {
     background-image: url("Microverse-Student-Project-1/header-shapes\ mobile.png");
     background-size: cover;
     padding: 11%;
-    margin-left: -10px;
+    margin-left: -20px;
   }
 
   .connect {
-    margin: -70px 10px;
+    margin-top: -80px;
+    margin-left: 10px;
   }
 
   .social-media {
-    margin: 70px 10px;
+    margin-left: 10px;
   }
 
   .cardwork {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 95%;
     height: 90%;
+    margin: auto;
+    background-color: #fff;
   }
 
   .snapshot {
@@ -844,20 +848,129 @@ nav > i:hover {
     flex: 1;
     display: flex;
     flex-direction: column;
+    margin-top: -100px;
+    padding: 20px;
   }
 
   .tab-list {
     flex: 1;
   }
 
-  .handle {
+  .tab-langs {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .tab-lang {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    padding: auto;
+  }
+
+  .about-connect {
+    /* LET’S CONNECT */
+    width: 300px;
+    height: 24px;
+    margin-top: -90px;
+  
+    /* Body / 2 - Bolder */
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+  
+    /* Primary/B300 */
+    color: #7f8cff;
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-left: 28px;
+  }
+  
+  .about-connect-icons {
+    display: flex;
+    flex-direction: row;
+    margin-left: 23px;
+    list-style: none;
+    padding-left: 0;
+    margin-top: 5px;
+  }
+  
+  .about-button {
+    /* Normal Button/Secondary/Enabled */
+    box-sizing: border-box;
+    top: 50px;
+  
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px;
+    gap: 10px;
+  
+    /* position: absolute; */
+    width: 170px;
+    height: 48px;
+  
+    /* Primary/B400 */
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+  
+    /* See Project */
+  
+    /* Button /Normal */
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+  
+    /* Primary/B500 */
+    color: #396df2;
+  }
+
+  .about-button-container {
     position: relative;
-    margin-left: 10px;
-    margin-top: 250px;
+  }
+
+  .about-button {
+    position: absolute;
+    top: -200px;
+  }
+
+  .contact {
+    background-image: url("Microverse-Student-Project-1/contact-me.png");
+    border-top-left-radius: 150px;
+  }
+
+  .contact-container {
+    padding: 120px 320px;
+  }
+
+  form {
+    margin-top: -100px;
+  }
+
+  .name, .email {
+    border-radius: 2px;
+    height: 30px;
+  }
+
+  .message {
+    border-radius: 2px;
   }
 
   .button-container {
-    position: absolute;
-    top: -250px;
+    width: 80%;
+    margin-left: 30%;
+  }
+
+  .contact-button {
+    padding-left: 30px;
   }
 }
