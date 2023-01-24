@@ -272,12 +272,13 @@ nav > i:hover {
   background-image: url("Microverse-Student-Project-1/Microverse-Student-Project-1/Portoflio Card/Snapshoot Portfolio.png");
   background-size: cover;
   background-position: center;
+  margin-left: -30px;
 }
 
 .info {
   flex: 2;
   width: 100%;
-  margin-left: 80px;
+  margin-left: -30px;
 }
 
 .cardwork-title {
@@ -503,6 +504,7 @@ nav > i:hover {
   background-position: center;
   height: 100%;
   margin-right: 80px;
+  margin-left: -30px;
 }
 
 .snapshot4 {
@@ -511,6 +513,7 @@ nav > i:hover {
   width: 100%;
   background-size: cover;
   background-position: center;
+  margin-right: 60px;
 }
 
 .bottom-container {
@@ -575,7 +578,7 @@ nav > i:hover {
 .handle {
   flex: 1;
   width: 100%;
-  margin-top: -10px;
+  margin-top: 80px;
   margin-left: 10px;
   margin-bottom: 20px;
 }
