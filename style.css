@@ -101,7 +101,6 @@ nav > i {
   background-image: url("Microverse-Student-Project-1/header-shapes\ mobile.png");
   background-size: cover;
   background-repeat: no-repeat;
-  /* padding: 140px; */
 }
 
 .text-container {
@@ -774,4 +773,3 @@ nav > i:hover {
   width: 50%;
   margin-top: -30px;
 }
-
