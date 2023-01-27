@@ -1,44 +1,47 @@
-/* ----MOBILE VERSION--- */
-@media only screen and (max-width: 768px) {
-  * {
-    box-sizing: border-box;
-  }
-
-  body {
+body {
     font-family: Poppins, sans-serif;
     background: #f7f7f9;
-  }
+    box-sizing: border-box;
+    margin-left: -5px;
+    overflow-x: hidden;
+}
 
-  .container {
-    /* width: 100%; */
+.container {
+    width: 90%;
     height: 100%;
     display: flex;
     flex-direction: column;
-  }
+    padding: 25px;
+}
 
-  header {
+.paragragh {
+    padding-right: 25px;
+}
+
+header {
     height: 104px;
-  }
+}
 
-  .header {
+.header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-  }
+}
 
-  nav {
+.connect-container {
+    margin-top: -80px;
+    margin-left: -20px;
+}
+
+nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-top: 10px;
     padding: 0 16px;
-  }
+}
 
-  .right-nav {
-    display: none;
-  }
-
-  .clock {
+.clock {
     font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -48,66 +51,81 @@
     letter-spacing: -0.28px;
     color: #000;
     padding-left: 40px;
-  }
+}
 
-  .icons {
+.icons {
     margin-top: 9px;
     padding-right: 20px;
-  }
+}
 
-  .logo {
+.logo {
     /* MY LOGO */
-    width: 5em;
+    width: 76px;
     height: 20px;
     font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 20px;
+
+    /* flex */
+    display: flex;
+    align-items: center;
     text-align: center;
 
     /* Primary/B400 */
     color: #6070ff;
 
     /* Inside auto layout */
+    flex: none;
+    border: 0;
+    flex-grow: 0;
+    padding-top: 3px;
+    margin-left: 15px;
     text-decoration: none;
-  }
+}
 
-  .logo:hover {
+.right-nav {
+    display: none;
+}
+
+.logo:hover {
     color: gray;
     cursor: pointer;
-  }
+}
 
-  nav > i {
+nav > i {
     padding-right: 20px;
-  }
-
-  .menu-icon {
     color: #6070ff;
-  }
+}
 
-  .tab-title > i {
+.tab-title > i {
     margin-right: 50px;
-  }
+}
 
-  .icons > i {
+.icons > i {
     font-size: 12px;
     margin: 1px;
-  }
+}
 
-  .header-background {
-    background-image: url("Microverse-Student-Project-1/header-shapes\ mobile.png");
+.background {
+    width: 100%;
+    height: 587px;
     background-size: cover;
-    background-repeat: no-repeat;
-    padding: 100px 25px;
-  }
+}
 
-  .text-container {
+.header-background {
+    width: 100%;
+    /* background-image: url("Microverse-Student-Project-1/header-shapes\ mobile.png"); */
+}
+
+.text-container {
     display: flex;
     flex-direction: column;
-  }
+    margin: 80px 12px;
+}
 
-  .title {
+.title {
     flex: 1;
 
     /* Primary Text */
@@ -124,15 +142,15 @@
     /* Neutrals/N800 */
     color: #172b4d;
     margin-bottom: 100px;
-  }
+}
 
-  .paragraph {
+.paragraph {
     flex: 1;
 
     /* Primary Text */
     width: 100%;
     height: 146px;
-    margin-top: -80px;
+    margin-top: -90px;
 
     /* Body / 2 */
     font-family: Poppins, sans-serif;
@@ -143,9 +161,9 @@
 
     /* Neutrals/N600 */
     color: #344563;
-  }
+}
 
-  .connect {
+.connect {
     /* LET’S CONNECT */
     width: 300px;
     height: 24px;
@@ -165,9 +183,9 @@
     order: 0;
     flex-grow: 0;
     margin-left: 28px;
-  }
+}
 
-  .social-media {
+.social-media {
     display: flex;
     flex-direction: row;
     margin-left: 23px;
@@ -175,87 +193,115 @@
     padding-left: 0;
     margin-top: 5px;
     position: relative;
-  }
+}
 
-  .about-item {
+.bottom-container {
+    margin-top: 100px;
+}
+
+.about-item {
     padding: 10px;
-  }
+}
 
-  .medium {
+.medium {
     position: absolute;
     top: -10px;
     left: 110px;
-  }
+}
 
-  .media-item {
+.media-item {
     padding: 5px;
     color: #505f79;
-  }
+}
 
-  .media-items {
+.media-items {
     padding-left: 5px;
     padding-top: 15px;
-  }
+}
 
-  .media-items:hover {
+.media-items:hover {
     color: lightgray;
     cursor: pointer;
-  }
+}
 
-  .subtitle > i {
+.subtitle > i {
     color: #c1c7d0;
     width: 8px;
     height: 8px;
     padding: 0 20px;
-  }
+}
 
-  nav > i:hover {
+nav > i:hover {
     color: gray;
     cursor: pointer;
-  }
+}
 
-  .media-item:hover {
+.media-item:hover {
     color: gray;
     cursor: pointer;
-  }
+}
 
-  /* CARD WORK */
-  .works {
-    margin: 110px 0.5rem;
+/* CARD WORK */
+
+.space {
+    width: 100%;
+    height: 114px;
+}
+
+.works {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: 700px 700px 700px 700px;
-    grid-gap: 110px;
-  }
+    grid-gap: 400px;
+    margin-right: 20px;
+}
 
-  .cardwork2 {
+.cardwork {
+    /* Card Works */
+    margin-right: 25px;
+    box-sizing: border-box;
+
+    /* Auto layout */
     display: flex;
     flex-direction: column;
-    flex: 1;
-    background: #fff;
-    border-radius: 16px;
-    padding: 15px;
+    align-items: center;
+    padding: 16px;
+    gap: 12px;
+    width: 100%;
     height: 900px;
-  }
 
-  .snapshot {
+    /* Neutrals/N0 */
+    background: #fff;
+
+    /* Neutrals/N40 */
+    border: 1px solid #dfe1e6;
+    border-radius: 16px;
+    padding-bottom: 90px;
+}
+
+.cardwork2, .cardwork4 {
+    flex-direction: column-reverse;
+}
+
+.snapshot {
     border-radius: 16px;
     flex: 1;
-    height: 100%;
-    background-image: url("Microverse-Student-Project-1/Snapshoot Portfolio.png");
+    width: 100%;
+    background-image: url("Microverse-Student-Project-1/Snapshoot\ Portfolio.png");
     background-size: cover;
     background-position: center;
-    border-radius: 16px;
-    width: 100%;
-    border: 1px solid green;
-  }
+    overflow-x: hidden;
+}
 
-  .info {
+.info {
     flex: 1;
-  }
+    width: 100%;
+}
 
-  .cardwork-title {
+.cardwork-title {
     /* Project Title */
+
+    width: 100%;
     height: 36px;
     font-family: Poppins, sans-serif;
     font-style: normal;
@@ -265,16 +311,15 @@
 
     /* Neutrals/N800 */
     color: #172b4d;
-  }
+}
 
-  .subtitle {
+.subtitle {
     display: flex;
     flex-direction: row;
-    padding-bottom: 1em;
-    width: 100%;
-  }
+    padding: 10px 0 25px;
+}
 
-  .company {
+.company {
     /* Text */
     width: 55px;
     height: 16px;
@@ -295,9 +340,9 @@
     flex: none;
     order: 0;
     flex-grow: 0;
-  }
+}
 
-  .job {
+.job {
     /* Text */
     width: 130px;
     height: 16px;
@@ -316,9 +361,9 @@
     flex: none;
     order: 0;
     flex-grow: 0;
-  }
+}
 
-  .year {
+.year {
     /* Text */
 
     width: 88px;
@@ -340,13 +385,13 @@
     flex: none;
     order: 0;
     flex-grow: 0;
-  }
+}
 
-  .desc {
+.desc {
     /* Primary Text */
 
     width: 295px;
-    height: 95px;
+    height: 76px;
     padding-bottom: 20px;
 
     /* Body / 3 */
@@ -365,17 +410,17 @@
     flex: none;
     order: 1;
     flex-grow: 0;
-  }
+}
 
-  .tags {
+.tags {
     /* display: flex;
     flex-direction: row; */
     margin-bottom: 20px;
     list-style: none;
     padding-left: 0;
-  }
+}
 
-  .tag {
+.tag {
     /* Tag */
     float: left;
     text-align: center;
@@ -408,23 +453,26 @@
 
     /* Primary/B400 */
     color: #6070ff;
-  }
+}
 
-  .javascript {
+.javascript {
     width: 90px;
-  }
+}
 
-  .button-container {
+.button-container {
     position: relative;
-  }
+}
 
-  .button {
+.button {
     /* Normal Button/Secondary/Enabled */
     box-sizing: border-box;
     position: absolute;
     top: 50px;
 
     /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     padding: 12px;
     gap: 10px;
 
@@ -447,66 +495,41 @@
 
     /* Primary/B500 */
     color: #396df2;
-  }
+}
 
-  .button:hover {
+.button:hover {
     color: gray;
     cursor: pointer;
-  }
+}
 
-  .cardwork2 {
-    flex-direction: column-reverse;
-  }
-
-  .snapshot2 {
+.snapshot2 {
     border-radius: 16px;
-    flex: 1;
-    width: 80%;
+    flex: 2;
+    width: 100%;
     background-image: url("Microverse-Student-Project-1/Snapshoot\ Portfolio\ \(1\).png");
-    background-color: #ccc;
-    height: 400px;
-    background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
-    margin-right: 120px;
-  }
+    background-position: center;
+}
 
-  .snapshot3 {
+.snapshot3 {
     border-radius: 16px;
     flex: 2;
     width: 100%;
     background-image: url("Microverse-Student-Project-1/Snapshoot\ Portfolio2.png");
     background-size: cover;
     background-position: center;
-    height: 100%;
-    margin-right: 80px;
-    margin-left: -30px;
-  }
+}
 
-  .snapshot4 {
+.snapshot4 {
     border-radius: 16px;
     flex: 2;
     width: 100%;
-    background-image: url("Microverse-Student-Project-1/Snapshoot Portfolio3.png");
+    background-image: url("Microverse-Student-Project-1/Snapshoot\ Portfolio3.png");
     background-size: cover;
     background-position: center;
-    height: 100%;
-    margin-right: 80px;
-    margin-left: -30px;
-  }
+}
 
-  .cardwork4 {
-    flex-direction: column-reverse;
-  }
-
-  .bottom-container {
-    background-image: url("Microverse-Student-Project-1/Base\ about\ my\ self.png");
-    background-size: cover;
-    background-position: center;
-    border-top-right-radius: 150px;
-  }
-
-  .about {
+.about {
     margin-top: 250px;
     display: flex;
     flex-direction: column;
@@ -514,10 +537,10 @@
     background-image: url("Microverse-Student-Project-1/Base\ about\ my\ self.png");
     background-size: cover;
     background-position: center;
-    height: 600px;
-  }
+    height: 1000px;
+}
 
-  .about-title {
+.about-title {
     flex: 1;
 
     /* Primary Text */
@@ -537,9 +560,9 @@
 
     /* Neutrals/N800 */
     color: #172b4d;
-  }
+}
 
-  .about-desc {
+.about-desc {
     margin-top: -30px;
     flex: 1;
 
@@ -556,16 +579,16 @@
 
     /* Neutrals/N600 */
     color: #344563;
-  }
+}
 
-  .handle {
+.media-container {
     flex: 1;
-    margin-top: 10px;
-    margin-left: -25px;
-    margin-bottom: 20px;
-  }
+    width: 100%;
+    margin-top: 50px;
+    margin-left: -15px;
+}
 
-  .about-button {
+.about-button {
     /* Normal Button/Secondary/Enabled */
     box-sizing: border-box;
     position: absolute;
@@ -598,35 +621,33 @@
 
     /* Primary/B500 */
     color: #396df2;
-  }
+}
 
-  .about-button:hover {
+.about-button:hover {
     color: gray;
     cursor: pointer;
-  }
+}
 
-  .vert-tabs {
+.vert-tabs {
     display: flex;
     flex-direction: column;
     list-style: none;
     margin-top: 50px;
     width: 100%;
-  }
+}
 
-  .tab-list {
+.tab-list {
     list-style: none;
-    padding: 10px;
-    margin-left: -20px;
-    margin-bottom: 50px;
-  }
+    padding: 0px;
+}
 
-  .line {
+.line {
     height: 1.5px;
     background: #dfe1e6;
     width: 85%;
-  }
+}
 
-  .tab-title {
+.tab-title {
     flex: 1;
     height: 24px;
     margin: 15px 0 20px;
@@ -640,9 +661,9 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-  }
+}
 
-  .tab-lang {
+.tab-lang {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -654,29 +675,29 @@
     background: #ececec;
     border-radius: 8px;
     padding-left: 15px;
-  }
+}
 
-  .tab-text {
+.tab-text {
     margin-left: 5px;
-  }
+}
 
-  .contact {
+.contact {
     width: 100%;
     height: 780px;
+    padding: -40px;
     background-image: url("Microverse-Student-Project-1/contactme.png");
     background-size: cover;
     background-position: center;
     display: flex;
     flex-direction: column;
-    margin-top: 80px;
-  }
+}
 
-  .contact-container {
+.contact-container {
     padding: 24px;
     color: #fff;
-  }
+}
 
-  .contact-me {
+.contact-me {
     height: 56px;
 
     /* Header / 2 */
@@ -689,9 +710,9 @@
 
     /* Neutrals/N0 */
     color: #fff;
-  }
+}
 
-  .contact-desc {
+.contact-desc {
     /* Primary Text */
     height: 102px;
     font-family: Poppins, sans-serif;
@@ -706,18 +727,18 @@
 
     /* Primary/B50 */
     color: #ebebff;
-  }
+}
 
-  .name {
+.name {
     margin-top: 100px;
-  }
+}
 
-  .email {
+.email {
     margin-top: 20px;
-  }
+}
 
-  .name,
-  .email {
+.name,
+.email {
     /* Mono/White */
     width: 90%;
     height: 48px;
@@ -739,9 +760,9 @@
 
     /* Neutral/N800 */
     color: #172b4d;
-  }
+}
 
-  .message {
+.message {
     padding: 8px;
     margin-top: 20px;
     width: 90%;
@@ -757,11 +778,10 @@
 
     /* Neutrals/N60 */
     color: #b3bac5;
-  }
+}
 
-  .contact-button {
+.contact-button {
     background-color: white;
     width: 50%;
     margin-top: -30px;
-  }
 }
