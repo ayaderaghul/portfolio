@@ -245,7 +245,6 @@
     background-image: url("Microverse-Student-Project-1/Snapshoot Portfolio.png");
     background-size: cover;
     background-position: center;
-    border-radius: 16px;
     width: 100%;
     border: 1px solid green;
   }
@@ -452,10 +451,6 @@
   .button:hover {
     color: gray;
     cursor: pointer;
-  }
-
-  .cardwork2 {
-    flex-direction: column-reverse;
   }
 
   .snapshot2 {
