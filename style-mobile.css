@@ -117,7 +117,6 @@ nav > i {
 .header-background {
   width: 100%;
   height: 100%;
-  /* border: 1px solid black; */
   background-image: url("Microverse-Student-Project-1/header-shapes\ mobile.png");
   padding: 50px 0;
   background-repeat: no-repeat;
@@ -127,7 +126,6 @@ nav > i {
   display: flex;
   flex-direction: column;
   margin: 40px 12px;
-  /* border: 1px solid black; */
 }
 
 .title {
