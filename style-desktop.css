@@ -113,7 +113,12 @@
   .text-container {
     display: flex;
     flex-direction: column;
-    margin: 100px 250px;
+    margin: 50px 250px;
+  }
+
+  .header-handle {
+    margin-top: 100px;
+    margin-bottom: 30px;
   }
 
   .title {
@@ -262,7 +267,7 @@
 
   .info {
     flex: 1;
-    padding: 25px;
+    width: 50%;
   }
 
   .cardwork-title {
@@ -547,7 +552,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-top: -100px;
   }
 
   .about-connect {
@@ -1577,5 +1581,17 @@
 
   form {
     margin-top: -80px;
+  }
+}
+
+/* --- VERSION FOR VERY BIG SCREEN --- */
+@media only screen and (min-width: 1600px) {
+  .background {
+    width: 100%;
+    height: 60%;
+  }
+
+  .text-container {
+    margin-top: 50px;
   }
 }
