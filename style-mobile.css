@@ -561,6 +561,10 @@ nav > i:hover {
   padding: 0 22px;
 }
 
+.about-left {
+  margin-bottom: 80px;
+}
+
 .about-title {
   flex: 1;
 
@@ -641,11 +645,15 @@ nav > i:hover {
   margin-left: -15px;
 }
 
+.about-button-container {
+  position: relative;
+}
+
 .about-button {
   /* Normal Button/Secondary/Enabled */
   box-sizing: border-box;
   position: absolute;
-  top: -90px;
+  top: 10px;
 
   /* Auto layout */
   display: flex;
@@ -728,8 +736,13 @@ nav > i:hover {
   padding-left: 15px;
 }
 
+.arrow {
+  color: #acb7c3;
+}
+
 .tab-text {
   margin-left: 5px;
+  color: #000;
 }
 
 .contact {
@@ -742,6 +755,7 @@ nav > i:hover {
   background-position: center;
   display: flex;
   flex-direction: column;
+  border-top-left-radius: 90px;
 }
 
 .contact-container {
