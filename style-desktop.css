@@ -70,7 +70,7 @@
     font-weight: 700;
     font-size: 18px;
     line-height: 20px;
-
+    transform: rotate(90deg);
     /* Primary/B400 */
     color: #6070ff;
 
