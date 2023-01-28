@@ -110,18 +110,24 @@ nav > i {
 
 .background {
   width: 100%;
-  height: 587px;
+  height: 35rem;
   background-size: cover;
 }
 
 .header-background {
   width: 100%;
+  height: 100%;
+  /* border: 1px solid black; */
+  background-image: url("Microverse-Student-Project-1/header-shapes\ mobile.png");
+  padding: 50px 0;
+  background-repeat: no-repeat;
 }
 
 .text-container {
   display: flex;
   flex-direction: column;
-  margin: 80px 12px;
+  margin: 40px 12px;
+  /* border: 1px solid black; */
 }
 
 .title {
@@ -160,6 +166,11 @@ nav > i {
 
   /* Neutrals/N600 */
   color: #344563;
+}
+
+.header-handle {
+  margin-top: -15px;
+  margin-left: -15px;
 }
 
 .connect {
@@ -252,12 +263,11 @@ nav > i:hover {
   grid-template-columns: auto;
   grid-template-rows: 700px 700px 700px 700px;
   grid-gap: 400px;
-  margin-right: 20px;
+  margin-top: 200px;
 }
 
 .cardwork {
   /* Card Works */
-  margin-right: 25px;
   box-sizing: border-box;
 
   /* Auto layout */
@@ -276,6 +286,11 @@ nav > i:hover {
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   padding-bottom: 90px;
+  overflow-x: hidden;
+}
+
+.cardwork1 {
+  height: 45rem;
 }
 
 .cardwork2,
@@ -296,11 +311,12 @@ nav > i:hover {
 .info {
   flex: 1;
   width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .cardwork-title {
   /* Project Title */
-
   width: 100%;
   height: 36px;
   font-family: Poppins, sans-serif;
@@ -308,9 +324,14 @@ nav > i:hover {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
+  margin-bottom: 10px;
 
   /* Neutrals/N800 */
   color: #172b4d;
+}
+
+.cardwork-title2 {
+  height: 100%;
 }
 
 .subtitle {
@@ -344,7 +365,6 @@ nav > i:hover {
 
 .job {
   /* Text */
-  width: 130px;
   height: 16px;
 
   /* Caption / 1 - Bolder */
@@ -459,7 +479,7 @@ nav > i:hover {
   /* Normal Button/Secondary/Enabled */
   box-sizing: border-box;
   position: absolute;
-  top: 50px;
+  top: 100px;
 
   /* Auto layout */
   display: flex;
@@ -485,6 +505,7 @@ nav > i:hover {
 
   /* Primary/B500 */
   color: #396df2;
+  margin-top: 10px;
 }
 
 .button:hover {
@@ -569,6 +590,37 @@ nav > i:hover {
 
   /* Neutrals/N600 */
   color: #344563;
+}
+
+.handle {
+  margin-top: 30px;
+  margin-left: -33px;
+}
+
+.about-connect {
+  /* LET’S CONNECT */
+  width: 300px;
+  height: 24px;
+
+  /* Body / 2 - Bolder */
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* Primary/B300 */
+  color: #7f8cff;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-left: 32px;
+}
+
+.about-connect-icons {
+  margin-left: 25px;
 }
 
 .media-container {
@@ -766,6 +818,11 @@ nav > i:hover {
 
   /* Neutrals/N60 */
   color: #b3bac5;
+}
+
+.contact-button-container {
+  position: relative;
+  margin-top: -35px;
 }
 
 .contact-button {
