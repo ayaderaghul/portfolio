@@ -12,36 +12,16 @@
     flex-direction: column;
   }
 
-  .background {
-    width: 100%;
-    height: 600px;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    border-bottom-left-radius: 150px;
-    padding-bottom: 50px;
-  }
-
   header {
     height: 104px;
-    background-color: white;
   }
 
   .header-background {
-    background-image: url("Microverse-Student-Project-1/background.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    padding-top: 1px;
+    margin-top: -20px;
   }
 
   .header {
     display: none;
-  }
-
-  .header-handle {
-    margin-bottom: 130px;
   }
 
   nav {
@@ -62,7 +42,6 @@
 
   .right-nav > span {
     margin: 15px;
-    color: #344563;
   }
 
   .clock {
@@ -91,6 +70,7 @@
     font-weight: 700;
     font-size: 18px;
     line-height: 20px;
+
     /* Primary/B400 */
     color: #6070ff;
 
@@ -113,19 +93,32 @@
     margin-right: 50px;
   }
 
-  .arrow {
-    color: #acb7c3;
-  }
-
   .icons > i {
     font-size: 12px;
     margin: 1px;
   }
 
+  .background {
+    width: 100%;
+    height: 700px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-image: url("Microverse-Student-Project-1/background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-bottom-left-radius: 150px;
+  }
+
   .text-container {
     display: flex;
     flex-direction: column;
-    margin: 80px 250px;
+    margin: 50px 250px;
+  }
+
+  .header-handle {
+    margin-top: 100px;
+    margin-bottom: 30px;
   }
 
   .title {
@@ -182,7 +175,10 @@
     color: #7f8cff;
 
     /* Inside auto layout */
-    margin: -80px 250px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: -100px 250px;
   }
 
   .social-media {
@@ -190,7 +186,7 @@
     flex-direction: row;
     list-style: none;
     position: relative;
-    margin: 80px 250px;
+    margin: 100px 250px;
   }
 
   .about-item {
@@ -242,28 +238,13 @@
   }
 
   .cardwork {
-    margin: 90px 40px 0;
+    margin: 90px 90px 0;
     height: 500px;
     display: flex;
     flex-direction: row;
-    padding: 15px;
+    padding: 25px;
     border-radius: 16px;
     background: #fff;
-  }
-
-  .subtitle2,
-  .subtitle4 {
-    padding-right: 5px;
-  }
-
-  .year2,
-  .year4 {
-    margin-left: 0px;
-  }
-
-  .circle2,
-  .circle4 {
-    margin-left: -45px;
   }
 
   .cardwork-image {
@@ -286,8 +267,7 @@
 
   .info {
     flex: 1;
-    padding: 25px;
-    width: 35%;
+    width: 50%;
   }
 
   .cardwork-title {
@@ -522,7 +502,7 @@
   }
 
   .about {
-    margin: 80px;
+    margin: 140px;
     display: flex;
     flex-direction: row;
     background-image: url("Microverse-Student-Project-1/Base\ about\ my\ self.png");
@@ -537,10 +517,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-  }
-
-  .about-left {
-    margin-bottom: 30px;
   }
 
   .about-title {
@@ -576,7 +552,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-top: 10px;
   }
 
   .about-connect {
@@ -672,7 +647,7 @@
   .tab-langs {
     display: flex;
     flex-direction: row;
-    padding: 0;
+    margin-left: -30px;
   }
 
   .tab-lang {
@@ -690,7 +665,6 @@
 
   .tab-text {
     margin-left: 5px;
-    color: #344563;
   }
 
   .contact {
@@ -702,12 +676,11 @@
     background-position: center;
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
     margin-bottom: 10px;
   }
 
   .contact-container {
-    width: 60%;
+    width: 40%;
     margin: auto;
     color: #fff;
     height: 100%;
@@ -834,7 +807,6 @@
 
   header {
     height: 104px;
-    background-color: transparent;
   }
 
   .header {
@@ -925,34 +897,19 @@
 
   .background {
     width: 100%;
-    height: 100%;
+    height: 916px;
     overflow-x: hidden;
-    background-image: url("Microverse-Student-Project-1/header-background-desktop.png");
+    background-image: url("Microverse-Student-Project-1/background.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     border-bottom-left-radius: 150px;
-    position: relative;
   }
-
-  .background-img {
-    width: 100%;
-  }
-
-  /* header {
-    position: absolute;
-    top: 100px;
-  } */
-
-  /* .header-background {
-    background-color: transparent;
-    position: absolute;
-    top: 200px;
-  } */
 
   .text-container {
     display: flex;
     flex-direction: column;
+    margin: 200px 260px;
   }
 
   .title {
@@ -991,11 +948,6 @@
 
     /* Neutrals/N600 */
     color: #344563;
-  }
-
-  .header-handle {
-    margin-top: 200px;
-    margin-left: -10px;
   }
 
   .connect {
@@ -1359,11 +1311,6 @@
     justify-content: space-around;
   }
 
-  .about-left {
-    margin-top: -50px;
-    margin-bottom: 50px;
-  }
-
   .about-title {
     /* Header / 2 */
     font-family: Poppins, sans-serif;
@@ -1634,5 +1581,17 @@
 
   form {
     margin-top: -80px;
+  }
+}
+
+/* --- VERSION FOR VERY BIG SCREEN --- */
+@media only screen and (min-width: 1600px) {
+  .background {
+    width: 100%;
+    height: 60%;
+  }
+
+  .text-container {
+    margin-top: 50px;
   }
 }
