@@ -1,16 +1,21 @@
-/* ----MOBILE VERSION--- */
 body {
   font-family: Poppins, sans-serif;
   background: #f7f7f9;
-  padding-left: 25px;
-  padding-right: 25px;
+  box-sizing: border-box;
+  margin-left: -5px;
+  overflow-x: hidden;
 }
 
 .container {
-  width: 100%;
+  width: 90%;
   height: 100%;
   display: flex;
   flex-direction: column;
+  padding: 25px;
+}
+
+.paragragh {
+  padding-right: 25px;
 }
 
 header {
@@ -23,16 +28,17 @@ header {
   justify-content: space-between;
 }
 
+.connect-container {
+  margin-top: -80px;
+  margin-left: -20px;
+}
+
 nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin-top: 10px;
   padding: 0 16px;
-}
-
-.right-nav {
-  display: none;
 }
 
 .clock {
@@ -54,7 +60,6 @@ nav {
 
 .logo {
   /* MY LOGO */
-
   width: 76px;
   height: 20px;
   font-family: Poppins, sans-serif;
@@ -73,11 +78,15 @@ nav {
 
   /* Inside auto layout */
   flex: none;
-  order: 0;
+  border: 0;
   flex-grow: 0;
   padding-top: 3px;
   margin-left: 15px;
   text-decoration: none;
+}
+
+.right-nav {
+  display: none;
 }
 
 .logo:hover {
@@ -87,6 +96,7 @@ nav {
 
 nav > i {
   padding-right: 20px;
+  color: #6070ff;
 }
 
 .tab-title > i {
@@ -100,14 +110,22 @@ nav > i {
 
 .background {
   width: 100%;
-  background-image: url("Microverse-Student-Project-1/header-shapes\ mobile.png");
+  height: 35rem;
   background-size: cover;
+}
+
+.header-background {
+  width: 100%;
+  height: 100%;
+  background-image: url("Microverse-Student-Project-1/header-shapes\ mobile.png");
+  padding: 50px 0;
+  background-repeat: no-repeat;
 }
 
 .text-container {
   display: flex;
   flex-direction: column;
-  margin: 80px 12px;
+  margin: 40px 12px;
 }
 
 .title {
@@ -148,6 +166,11 @@ nav > i {
   color: #344563;
 }
 
+.header-handle {
+  margin-top: -15px;
+  margin-left: -15px;
+}
+
 .connect {
   /* LET’S CONNECT */
   width: 300px;
@@ -178,6 +201,10 @@ nav > i {
   padding-left: 0;
   margin-top: 5px;
   position: relative;
+}
+
+.bottom-container {
+  margin-top: 100px;
 }
 
 .about-item {
@@ -232,13 +259,13 @@ nav > i:hover {
 .works {
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 596px 596px 596px 596px;
-  grid-gap: 130px;
+  grid-template-rows: 700px 700px 700px 700px;
+  grid-gap: 400px;
+  margin-top: 200px;
 }
 
 .cardwork {
   /* Card Works */
-  margin-right: 25px;
   box-sizing: border-box;
 
   /* Auto layout */
@@ -248,42 +275,46 @@ nav > i:hover {
   padding: 16px;
   gap: 12px;
   width: 100%;
-  height: 800px;
+  height: 900px;
 
   /* Neutrals/N0 */
-  background: #dfe1e6;
+  background: #fff;
 
   /* Neutrals/N40 */
+  border: 1px solid #dfe1e6;
   border-radius: 16px;
+  padding-bottom: 90px;
+  overflow-x: hidden;
 }
 
-.cardwork-image {
-  background-image: url("Microverse-Student-Project-1/Snapshoot Portfolio3.png");
-  background-size: cover;
-  background-position: center;
-  width: 90%;
+.cardwork1 {
+  height: 45rem;
+}
+
+.cardwork2,
+.cardwork4 {
+  flex-direction: column-reverse;
 }
 
 .snapshot {
   border-radius: 16px;
-  flex: 2;
+  flex: 1;
   width: 100%;
-  height: 100%;
-  background-image: url("Microverse-Student-Project-1/Microverse-Student-Project-1/Portoflio Card/Snapshoot Portfolio.png");
+  background-image: url("Microverse-Student-Project-1/Snapshoot\ Portfolio.png");
   background-size: cover;
   background-position: center;
-  margin-left: -30px;
+  overflow-x: hidden;
 }
 
 .info {
-  flex: 2;
+  flex: 1;
   width: 100%;
-  margin-left: -30px;
+  display: flex;
+  flex-direction: column;
 }
 
 .cardwork-title {
   /* Project Title */
-
   width: 100%;
   height: 36px;
   font-family: Poppins, sans-serif;
@@ -291,9 +322,14 @@ nav > i:hover {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
+  margin-bottom: 10px;
 
   /* Neutrals/N800 */
   color: #172b4d;
+}
+
+.cardwork-title2 {
+  height: 100%;
 }
 
 .subtitle {
@@ -327,7 +363,6 @@ nav > i:hover {
 
 .job {
   /* Text */
-  width: 130px;
   height: 16px;
 
   /* Caption / 1 - Bolder */
@@ -348,7 +383,6 @@ nav > i:hover {
 
 .year {
   /* Text */
-
   width: 88px;
   height: 16px;
 
@@ -358,8 +392,6 @@ nav > i:hover {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-
-  /* identical to box height, or 123% */
 
   /* Neutrals/N100 */
   color: #7a869a;
@@ -372,7 +404,6 @@ nav > i:hover {
 
 .desc {
   /* Primary Text */
-
   width: 295px;
   height: 76px;
   padding-bottom: 20px;
@@ -384,8 +415,6 @@ nav > i:hover {
   font-size: 15px;
   line-height: 24px;
 
-  /* or 160% */
-
   /* Neutrals/N600 */
   color: #344563;
 
@@ -396,8 +425,6 @@ nav > i:hover {
 }
 
 .tags {
-  /* display: flex;
-  flex-direction: row; */
   margin-bottom: 20px;
   list-style: none;
   padding-left: 0;
@@ -450,9 +477,12 @@ nav > i:hover {
   /* Normal Button/Secondary/Enabled */
   box-sizing: border-box;
   position: absolute;
-  top: 50px;
+  top: 100px;
 
   /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   padding: 12px;
   gap: 10px;
 
@@ -464,8 +494,6 @@ nav > i:hover {
   border: 1px solid #6070ff;
   border-radius: 8px;
 
-  /* See Project */
-
   /* Button /Normal */
   font-family: Poppins, sans-serif;
   font-style: normal;
@@ -475,6 +503,7 @@ nav > i:hover {
 
   /* Primary/B500 */
   color: #396df2;
+  margin-top: 10px;
 }
 
 .button:hover {
@@ -485,42 +514,28 @@ nav > i:hover {
 .snapshot2 {
   border-radius: 16px;
   flex: 2;
-  width: 80%;
+  width: 100%;
   background-image: url("Microverse-Student-Project-1/Snapshoot\ Portfolio\ \(1\).png");
-  background-color: #ccc;
-  height: 400px;
-  background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
-  margin-right: 120px;
+  background-position: center;
 }
 
 .snapshot3 {
   border-radius: 16px;
   flex: 2;
   width: 100%;
-  background-image: url("Microverse-Student-Project-1/Snapshoot\ Portfolio.png");
+  background-image: url("Microverse-Student-Project-1/Snapshoot\ Portfolio2.png");
   background-size: cover;
   background-position: center;
-  height: 100%;
-  margin-right: 80px;
-  margin-left: -30px;
 }
 
 .snapshot4 {
   border-radius: 16px;
   flex: 2;
   width: 100%;
+  background-image: url("Microverse-Student-Project-1/Snapshoot\ Portfolio3.png");
   background-size: cover;
   background-position: center;
-  margin-right: 60px;
-}
-
-.bottom-container {
-  background-image: url("Microverse-Student-Project-1/Base\ about\ my\ self.png");
-  background-size: cover;
-  background-position: center;
-  border-top-right-radius: 150px;
 }
 
 .about {
@@ -531,7 +546,7 @@ nav > i:hover {
   background-image: url("Microverse-Student-Project-1/Base\ about\ my\ self.png");
   background-size: cover;
   background-position: center;
-  height: 600px;
+  height: 1000px;
 }
 
 .about-title {
@@ -576,11 +591,41 @@ nav > i:hover {
 }
 
 .handle {
+  margin-top: 30px;
+  margin-left: -33px;
+}
+
+.about-connect {
+  /* LET’S CONNECT */
+  width: 300px;
+  height: 24px;
+
+  /* Body / 2 - Bolder */
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* Primary/B300 */
+  color: #7f8cff;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-left: 32px;
+}
+
+.about-connect-icons {
+  margin-left: 25px;
+}
+
+.media-container {
   flex: 1;
   width: 100%;
-  margin-top: 80px;
-  margin-left: 10px;
-  margin-bottom: 20px;
+  margin-top: 50px;
+  margin-left: -15px;
 }
 
 .about-button {
@@ -604,8 +649,6 @@ nav > i:hover {
   /* Primary/B400 */
   border: 1px solid #6070ff;
   border-radius: 8px;
-
-  /* See Project */
 
   /* Button /Normal */
   font-family: Poppins, sans-serif;
@@ -633,9 +676,7 @@ nav > i:hover {
 
 .tab-list {
   list-style: none;
-  padding: 10px;
-  margin-left: -20px;
-  margin-bottom: 50px;
+  padding: 0;
 }
 
 .line {
@@ -681,12 +722,12 @@ nav > i:hover {
 .contact {
   width: 100%;
   height: 780px;
+  padding: -40px;
   background-image: url("Microverse-Student-Project-1/contactme.png");
   background-size: cover;
   background-position: center;
   display: flex;
   flex-direction: column;
-  margin-top: 80px;
 }
 
 .contact-container {
@@ -777,220 +818,13 @@ nav > i:hover {
   color: #b3bac5;
 }
 
+.contact-button-container {
+  position: relative;
+  margin-top: -35px;
+}
+
 .contact-button {
   background-color: white;
   width: 50%;
   margin-top: -30px;
-}
-
-/* ----DESKTOP VERSION---- */
-
-@media only screen and (min-width: 768px) {
-  .body {
-    background-color: #f4f5f7;
-  }
-
-  .logo {
-    margin-left: 155px;
-  }
-
-  .menu-icon {
-    visibility: hidden;
-  }
-
-  .right-nav {
-    display: block;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-right: 155px;
-  }
-
-  .right-nav > span {
-    margin: 10px;
-
-    /* Portoflio */
-    width: 63px;
-    height: 20px;
-
-    /* Body / 3 - Bolder */
-    font-family: Poppins, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-
-    /* identical to box height, or 133% */
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    /* Neutrals/N600 */
-    color: #344563;
-  }
-
-  .background {
-    width: 80%;
-    height: 100%;
-    background-image: url("Microverse-Student-Project-1/header-shapes\ mobile.png");
-    background-size: cover;
-    padding: 11%;
-    margin-left: -20px;
-  }
-
-  .connect {
-    margin-top: -80px;
-    margin-left: 10px;
-  }
-
-  .social-media {
-    margin-left: 10px;
-  }
-
-  .cardwork {
-    display: flex;
-    flex-direction: row;
-    width: 95%;
-    height: 80%;
-    margin: 0 140px;
-    background-color: #fff;
-  }
-
-  .snapshot {
-    width: 100%;
-    height: 50%;
-    margin-right: 80px;
-  }
-
-  .snapshot2 {
-    background-image: url("Microverse-Student-Project-1/Snapshoot Portfolio3.png");
-  }
-
-  .about {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .about-left {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    padding-top: -250px;
-    margin: 0 140px;
-  }
-
-  .tab-list {
-    flex: 1;
-  }
-
-  .tab-langs {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .tab-lang {
-    width: 100px;
-    height: 100px;
-    display: flex;
-    flex-direction: column;
-    padding: auto;
-  }
-
-  .about-connect {
-    /* LET’S CONNECT */
-    width: 300px;
-    height: 24px;
-    margin-top: -90px;
-
-    /* Body / 2 - Bolder */
-    font-family: Poppins, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-
-    /* Primary/B300 */
-    color: #7f8cff;
-
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-  }
-
-  .about-connect-icons {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    padding-left: 0;
-    margin-top: 5px;
-  }
-
-  .about-button {
-    /* Normal Button/Secondary/Enabled */
-    box-sizing: border-box;
-
-    /* Auto layout */
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 12px;
-    gap: 10px;
-
-    /* position: absolute; */
-    width: 170px;
-    height: 48px;
-
-    /* Primary/B400 */
-    border: 1px solid #6070ff;
-    border-radius: 8px;
-
-    /* Button /Normal */
-    font-family: Poppins, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 24px;
-
-    /* Primary/B500 */
-    color: #396df2;
-    position: absolute;
-    top: -200px;
-  }
-
-  .about-button-container {
-    position: relative;
-  }
-
-  .contact {
-    background-image: url("Microverse-Student-Project-1/contact-me.png");
-    border-top-left-radius: 150px;
-  }
-
-  .contact-container {
-    padding: 120px 20%;
-  }
-
-  form {
-    margin-top: -80px;
-  }
-
-  .name,
-  .email {
-    border-radius: 2px;
-    height: 30px;
-  }
-
-  .message {
-    border-radius: 2px;
-  }
-
-  .button-container {
-    width: 80%;
-    margin-left: 0;
-  }
-
-  .contact-button {
-    margin-left: 30%;
-  }
 }
