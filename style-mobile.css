@@ -2,8 +2,6 @@ body {
   font-family: Poppins, sans-serif;
   background: #f7f7f9;
   box-sizing: border-box;
-  margin-left: -5px;
-  overflow-x: hidden;
 }
 
 .container {
@@ -14,12 +12,25 @@ body {
   padding: 25px;
 }
 
+.header {
+  margin-top: 0.01rem;
+  margin-right: 20px;
+}
+
+nav {
+  margin-right: 15px;
+}
+
 .paragragh {
   padding-right: 25px;
 }
 
 header {
   height: 104px;
+}
+
+.header-background {
+  width: 100%;
 }
 
 .header {
@@ -127,7 +138,7 @@ nav > i {
   display: flex;
   flex-direction: column;
   margin: 40px 12px;
-  /* border: 1px solid black; */
+  color: white;
 }
 
 .title {
@@ -203,10 +214,6 @@ nav > i {
   padding-left: 0;
   margin-top: 5px;
   position: relative;
-}
-
-.bottom-container {
-  margin-top: 100px;
 }
 
 .about-item {
@@ -540,15 +547,18 @@ nav > i:hover {
   background-position: center;
 }
 
-.about {
-  margin-top: 250px;
-  display: flex;
-  flex-direction: column;
-  padding: 0 22px;
+.bottom-container {
+  margin-top: 400px;
   background-image: url("Microverse-Student-Project-1/Base\ about\ my\ self.png");
   background-size: cover;
   background-position: center;
-  height: 1000px;
+  border-top-right-radius: 90px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  padding: 0 22px;
 }
 
 .about-title {
@@ -621,6 +631,7 @@ nav > i:hover {
 
 .about-connect-icons {
   margin-left: 25px;
+  margin-top: 20px;
 }
 
 .media-container {
@@ -722,6 +733,7 @@ nav > i:hover {
 }
 
 .contact {
+  margin-top: 80px;
   width: 100%;
   height: 780px;
   padding: -40px;
