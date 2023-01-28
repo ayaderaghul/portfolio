@@ -65,7 +65,7 @@
     font-size: 18px;
     line-height: 20px;
     text-align: center;
-
+    transform: rotate(90deg);
     /* Primary/B400 */
     color: #6070ff;
 
