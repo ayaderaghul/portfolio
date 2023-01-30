@@ -214,11 +214,33 @@
     cursor: pointer;
   }
 
+  .subtitle2 {
+    margin-top: 40px;
+  }
+
   .subtitle > i {
     color: #c1c7d0;
     width: 8px;
     height: 8px;
-    padding: 0 20px;
+    padding: 0 15px;
+  }
+
+  .circle2 {
+    margin-left: -30px;
+  }
+
+  .cirlce4 {
+    border: 1px solid black;
+    margin: -10px;
+  }
+
+  .year,
+  .year4 {
+    margin-left: -5px;
+  }
+
+  .year4 {
+    margin-left: -20px;
   }
 
   nav > i:hover {
@@ -786,7 +808,7 @@
   }
 
   form {
-    margin-top: -80px;
+    margin-top: -50px;
   }
 }
 
