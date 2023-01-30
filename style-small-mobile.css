@@ -1,0 +1,834 @@
+@media only screen and (max-width: 450px) {
+  body {
+    font-family: Poppins, sans-serif;
+    background: #f7f7f9;
+    box-sizing: border-box;
+    margin-left: -5px;
+    overflow-x: hidden;
+  }
+
+  .container {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+  }
+
+  .paragragh {
+    padding-right: 25px;
+  }
+
+  header {
+    height: 104px;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .connect-container {
+    margin-top: -80px;
+    margin-left: -20px;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 0 16px;
+  }
+
+  .clock {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: -0.28px;
+    color: #000;
+    padding-left: 40px;
+  }
+
+  .icons {
+    margin-top: 9px;
+    padding-right: 20px;
+  }
+
+  .logo {
+    /* MY LOGO */
+    width: 76px;
+    height: 20px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+
+    /* flex */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* Primary/B400 */
+    color: #6070ff;
+
+    /* Inside auto layout */
+    flex: none;
+    border: 0;
+    flex-grow: 0;
+    padding-top: 3px;
+    margin-left: 15px;
+    text-decoration: none;
+  }
+
+  .right-nav {
+    display: none;
+  }
+
+  .logo:hover {
+    color: gray;
+    cursor: pointer;
+  }
+
+  nav > i {
+    padding-right: 20px;
+    color: #6070ff;
+  }
+
+  .tab-title > i {
+    margin-right: 50px;
+  }
+
+  .icons > i {
+    font-size: 12px;
+    margin: 1px;
+  }
+
+  .background {
+    width: 100%;
+    height: 35rem;
+    background-size: cover;
+  }
+
+  .header-background {
+    width: 100%;
+    height: 100%;
+    background-image: url("Microverse-Student-Project-1/header-shapes\ mobile.png");
+    padding: 50px 0;
+    background-repeat: no-repeat;
+  }
+
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 12px;
+  }
+
+  .title {
+    flex: 1;
+
+    /* Primary Text */
+    width: 100%;
+    height: 150px;
+
+    /* Header / 2 */
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+
+    /* Neutrals/N800 */
+    color: #172b4d;
+    margin-bottom: 100px;
+  }
+
+  .paragraph {
+    flex: 1;
+
+    /* Primary Text */
+    width: 100%;
+    height: 146px;
+    margin-top: -90px;
+
+    /* Body / 2 */
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+
+    /* Neutrals/N600 */
+    color: #344563;
+  }
+
+  .header-handle {
+    margin-top: -15px;
+    margin-left: -15px;
+  }
+
+  .connect {
+    /* LET’S CONNECT */
+    width: 300px;
+    height: 24px;
+
+    /* Body / 2 - Bolder */
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    /* Primary/B300 */
+    color: #7f8cff;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-left: 28px;
+  }
+
+  .social-media {
+    display: flex;
+    flex-direction: row;
+    margin-left: 23px;
+    list-style: none;
+    padding-left: 0;
+    margin-top: 5px;
+    position: relative;
+  }
+
+  .bottom-container {
+    margin-top: 100px;
+  }
+
+  .about-item {
+    padding: 10px;
+  }
+
+  .medium {
+    position: absolute;
+    top: -10px;
+    left: 110px;
+  }
+
+  .media-item {
+    padding: 5px;
+    color: #505f79;
+  }
+
+  .media-items {
+    padding-left: 5px;
+    padding-top: 15px;
+  }
+
+  .media-items:hover {
+    color: lightgray;
+    cursor: pointer;
+  }
+
+  .subtitle > i {
+    color: #c1c7d0;
+    width: 8px;
+    height: 8px;
+    padding: 0 20px;
+  }
+
+  nav > i:hover {
+    color: gray;
+    cursor: pointer;
+  }
+
+  .media-item:hover {
+    color: gray;
+    cursor: pointer;
+  }
+
+  /* CARD WORK */
+
+  .space {
+    width: 100%;
+    height: 114px;
+  }
+
+  .works {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 700px 700px 700px 700px;
+    grid-gap: 400px;
+    margin-top: 200px;
+  }
+
+  .cardwork {
+    /* Card Works */
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    gap: 12px;
+    width: 100%;
+    height: 900px;
+
+    /* Neutrals/N0 */
+    background: #fff;
+
+    /* Neutrals/N40 */
+    border: 1px solid #dfe1e6;
+    border-radius: 16px;
+    padding-bottom: 90px;
+    overflow-x: hidden;
+  }
+
+  .cardwork1 {
+    height: 45rem;
+  }
+
+  .cardwork2,
+  .cardwork4 {
+    flex-direction: column-reverse;
+  }
+
+  .snapshot {
+    border-radius: 16px;
+    flex: 1;
+    width: 100%;
+    background-image: url("Microverse-Student-Project-1/Snapshoot\ Portfolio.png");
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+  }
+
+  .info {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cardwork-title {
+    /* Project Title */
+    width: 100%;
+    height: 36px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    margin-bottom: 10px;
+
+    /* Neutrals/N800 */
+    color: #172b4d;
+  }
+
+  .cardwork-title2 {
+    height: 100%;
+  }
+
+  .subtitle {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0 25px;
+  }
+
+  .company {
+    /* Text */
+    width: 55px;
+    height: 16px;
+    padding-left: 0;
+    padding-right: 10px;
+
+    /* Caption / 1 - Bolder */
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+
+    /* Neutrals/N600 */
+    color: #344563;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .job {
+    /* Text */
+    height: 16px;
+
+    /* Caption / 1 - Bolder */
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+
+    /* Neutrals/N100 */
+    color: #7a869a;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .year {
+    /* Text */
+    width: 88px;
+    height: 16px;
+
+    /* Caption / 1 - Bolder */
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+
+    /* Neutrals/N100 */
+    color: #7a869a;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .desc {
+    /* Primary Text */
+    width: 295px;
+    height: 76px;
+    padding-bottom: 20px;
+
+    /* Body / 3 */
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+
+    /* Neutrals/N600 */
+    color: #344563;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  .tags {
+    margin-bottom: 20px;
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .tag {
+    /* Tag */
+    float: left;
+    text-align: center;
+    margin-right: 20px;
+    padding-top: 5px;
+
+    /* Auto layout */
+    align-items: center;
+    width: 53px;
+    height: 24px;
+
+    /* Primary/B50 */
+    background: #ebebff;
+    border-radius: 8px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    /* Button / Small */
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+
+    /* identical to box height, or 133% */
+    letter-spacing: 0.03em;
+
+    /* Primary/B400 */
+    color: #6070ff;
+  }
+
+  .javascript {
+    width: 90px;
+  }
+
+  .button-container {
+    position: relative;
+  }
+
+  .button {
+    /* Normal Button/Secondary/Enabled */
+    box-sizing: border-box;
+    position: absolute;
+    top: 100px;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px;
+    gap: 10px;
+
+    /* position: absolute; */
+    width: 124px;
+    height: 48px;
+
+    /* Primary/B400 */
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+
+    /* Button /Normal */
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+
+    /* Primary/B500 */
+    color: #396df2;
+    margin-top: 10px;
+  }
+
+  .button:hover {
+    color: gray;
+    cursor: pointer;
+  }
+
+  .snapshot2 {
+    border-radius: 16px;
+    flex: 2;
+    width: 100%;
+    background-image: url("Microverse-Student-Project-1/Snapshoot\ Portfolio\ \(1\).png");
+    background-size: cover;
+    background-position: center;
+    margin-left: 30px;
+    margin-right: -10px;
+  }
+
+  .snapshot3 {
+    border-radius: 16px;
+    flex: 2;
+    width: 100%;
+    background-image: url("Microverse-Student-Project-1/Snapshoot\ Portfolio2.png");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .snapshot4 {
+    border-radius: 16px;
+    flex: 2;
+    width: 100%;
+    background-image: url("Microverse-Student-Project-1/Snapshoot\ Portfolio3.png");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .about {
+    margin-top: 250px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 22px;
+    background-image: url("Microverse-Student-Project-1/Base\ about\ my\ self.png");
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+  }
+
+  .about-title {
+    flex: 1;
+
+    /* Primary Text */
+    width: 327px;
+    height: 101px;
+
+    /* Header / 2 */
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+
+    /* or 130% */
+    display: flex;
+    align-items: center;
+
+    /* Neutrals/N800 */
+    color: #172b4d;
+  }
+
+  .about-desc {
+    margin-top: -30px;
+    flex: 1;
+
+    /* Primary Text */
+    width: 100%;
+    height: 144px;
+
+    /* Body / 2 */
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    /* Neutrals/N600 */
+    color: #344563;
+  }
+
+  .handle {
+    margin-top: 30px;
+    margin-left: -33px;
+  }
+
+  .about-connect {
+    /* LET’S CONNECT */
+    width: 300px;
+    height: 24px;
+
+    /* Body / 2 - Bolder */
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    /* Primary/B300 */
+    color: #7f8cff;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-left: 32px;
+  }
+
+  .about-connect-icons {
+    margin-left: 25px;
+  }
+
+  .media-container {
+    flex: 1;
+    width: 100%;
+    margin-top: 50px;
+    margin-left: -15px;
+  }
+
+  .about-button {
+    /* Normal Button/Secondary/Enabled */
+    box-sizing: border-box;
+    position: absolute;
+    top: -90px;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px;
+    margin-bottom: -25px;
+    gap: 10px;
+
+    /* position: absolute; */
+    width: 170px;
+    height: 48px;
+
+    /* Primary/B400 */
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+
+    /* Button /Normal */
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+
+    /* Primary/B500 */
+    color: #396df2;
+  }
+
+  .about-button:hover {
+    color: gray;
+    cursor: pointer;
+  }
+
+  .vert-tabs {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-top: 50px;
+    width: 100%;
+  }
+
+  .tab-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  .line {
+    height: 1.5px;
+    background: #dfe1e6;
+    width: 85%;
+  }
+
+  .tab-title {
+    flex: 1;
+    height: 24px;
+    margin: 15px 0 20px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .tab-lang {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 0;
+    height: 66.72px;
+    margin: 5px 36px 7px 6px;
+
+    /* Neutrals/N10 */
+    background: #ececec;
+    border-radius: 8px;
+    padding-left: 15px;
+  }
+
+  .tab-text {
+    margin-left: 5px;
+  }
+
+  .contact {
+    width: 100%;
+    height: 780px;
+    padding: -40px;
+    background-image: url("Microverse-Student-Project-1/contactme.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-container {
+    padding: 24px;
+    color: #fff;
+  }
+
+  .contact-me {
+    height: 56px;
+
+    /* Header / 2 */
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+
+    /* Neutrals/N0 */
+    color: #fff;
+  }
+
+  .contact-desc {
+    /* Primary Text */
+    height: 102px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: -30px;
+
+    /* or 140% */
+    text-align: center;
+
+    /* Primary/B50 */
+    color: #ebebff;
+  }
+
+  .name {
+    margin-top: 100px;
+  }
+
+  .email {
+    margin-top: 20px;
+  }
+
+  .name,
+  .email {
+    /* Mono/White */
+    width: 90%;
+    height: 48px;
+    background: #fff;
+
+    /* Base/100 */
+    border: 1px solid #cfd8dc;
+    border-radius: 8px;
+    padding: 8px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+
+    /* or 118% */
+    display: flex;
+    align-items: center;
+
+    /* Neutral/N800 */
+    color: #172b4d;
+  }
+
+  .message {
+    padding: 8px;
+    margin-top: 20px;
+    width: 90%;
+    height: 170px;
+    border-radius: 8px;
+
+    /* Input /Normal */
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+
+    /* Neutrals/N60 */
+    color: #b3bac5;
+  }
+
+  .contact-button-container {
+    position: relative;
+    margin-top: -35px;
+  }
+
+  .contact-button {
+    background-color: white;
+    width: 50%;
+    margin-top: -30px;
+  }
+}

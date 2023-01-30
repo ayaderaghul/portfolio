@@ -2,7 +2,7 @@ body {
   font-family: Poppins, sans-serif;
   background: #f7f7f9;
   box-sizing: border-box;
-  margin-left: -5px;
+  padding-left: 20px;
   overflow-x: hidden;
 }
 
@@ -120,6 +120,7 @@ nav > i {
   background-image: url("Microverse-Student-Project-1/header-shapes\ mobile.png");
   padding: 50px 0;
   background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .text-container {
@@ -304,6 +305,7 @@ nav > i:hover {
   background-size: cover;
   background-position: center;
   overflow-x: hidden;
+  margin: 15px;
 }
 
 .info {
@@ -311,6 +313,7 @@ nav > i:hover {
   width: 100%;
   display: flex;
   flex-direction: column;
+  margin-left: 35%;
 }
 
 .cardwork-title {
@@ -471,6 +474,7 @@ nav > i:hover {
 
 .button-container {
   position: relative;
+  padding-left: 5%;
 }
 
 .button {
@@ -504,6 +508,7 @@ nav > i:hover {
   /* Primary/B500 */
   color: #396df2;
   margin-top: 10px;
+  margin-left: 10%;
 }
 
 .button:hover {
@@ -591,7 +596,7 @@ nav > i:hover {
 }
 
 .handle {
-  margin-top: 30px;
+  margin-top: 0;
   margin-left: -33px;
 }
 
@@ -676,7 +681,11 @@ nav > i:hover {
 
 .tab-list {
   list-style: none;
-  padding: 0;
+  padding: 20px;
+}
+
+.tab-item {
+  padding: 10px;
 }
 
 .line {
@@ -728,6 +737,7 @@ nav > i:hover {
   background-position: center;
   display: flex;
   flex-direction: column;
+  border-top-left-radius: 150px;
 }
 
 .contact-container {
@@ -820,11 +830,13 @@ nav > i:hover {
 
 .contact-button-container {
   position: relative;
-  margin-top: -35px;
+  margin-top: -10%;
+  margin-left: 20%;
 }
 
 .contact-button {
   background-color: white;
   width: 50%;
   margin-top: -30px;
+  padding-left: 10%;
 }
